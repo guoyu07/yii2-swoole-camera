@@ -1,5 +1,5 @@
 {
-    "name": "yii2-swoole-camera/yii2-swoole-camera",
+    "name": "yiizh/yii2-swoole-camera",
     "description": "The web camera with Yii2 and swoole.",
     "type": "yii2-extension",
     "keywords": ["yii2","swoole","camera","websocket"],
