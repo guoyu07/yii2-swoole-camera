@@ -1,0 +1,9 @@
+{
+    "id": "yii2-swoole-camera",
+    "name": "Yii2 Swoole Camera",
+    "description": "Yii2 Swoole Camera",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0"
+}
