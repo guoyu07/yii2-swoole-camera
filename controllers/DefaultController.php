@@ -9,7 +9,7 @@ namespace yiizh\swoole\camera\controllers;
 
 use yii\web\Controller;
 
-class SiteController extends Controller
+class DefaultController extends Controller
 {
     public function actions()
     {

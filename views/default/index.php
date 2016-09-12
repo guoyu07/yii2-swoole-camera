@@ -6,7 +6,7 @@ use yii\helpers\Html;
 use yii\helpers\Markdown;
 
 $this->title = Yii::$app->name;
-$content = file_get_contents(Yii::getAlias('@root/README.md'));
+$content = file_get_contents(Yii::getAlias('@yiizh/swoole/camera').'/README.md');
 
 ?>
 <div class="site-index">
@@ -17,8 +17,8 @@ $content = file_get_contents(Yii::getAlias('@root/README.md'));
         <p class="lead">Record, Play the camera using Yii2 and Swoole.</p>
 
         <p>
-            <?= Html::a('<i class="fa fa-fw fa-video-camera"></i> 录制', ['/camera/record'], ['class' => 'btn btn-lg btn-success']) ?>
-            <?= Html::a('<i class="fa fa-fw fa-play"></i> 观看', ['/camera/play'], ['class' => 'btn btn-lg btn-success']) ?>
+            <?= Html::a('<i class="fa fa-fw fa-video-camera"></i> 录制', ['camera/record'], ['class' => 'btn btn-lg btn-success']) ?>
+            <?= Html::a('<i class="fa fa-fw fa-play"></i> 观看', ['camera/play'], ['class' => 'btn btn-lg btn-success']) ?>
         </p>
     </div>
     <hr />
