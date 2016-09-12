@@ -5,12 +5,19 @@
  * @license http://www.yiizh.com/license/
  */
 
-namespace yiizh\swoole\camera\server\commands;
+namespace yiizh\swoole\camera\commands;
 
 use yii\console\Controller;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 
+/**
+ * WebSocket Server
+ *
+ * 基于 Swoole
+ *
+ * @package yiizh\swoole\camera\commands
+ */
 class ServerController extends Controller
 {
     /**

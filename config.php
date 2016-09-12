@@ -7,6 +7,10 @@
 
 return [
     'id' => 'yii2-swoole-camera',
-    'class' => \yiizh\swoole\camera\Module::className(),
+    'namespace' => 'yiizh\swoole\camera',
+    'class' => 'yiizh\swoole\camera\Module',
     'isCoreModule' => true,
+    'commands' => [
+        'server' => 'yiizh\swoole\camera\commands\ServerController'
+    ]
 ];
